@@ -344,7 +344,7 @@ function Nav() {
         {links.map(l => (
           <a key={l} href={`#${l.toLowerCase().replace(' ', '-')}`} onClick={() => setOpen(false)}>{l}</a>
         ))}
-        <a href="tel:+16065988053" className="nav-cta" onClick={() => setOpen(false)}>Call (606) 598-8053</a>
+        <a href="tel:+16065988053" className="nav-cta" onClick={() => setOpen(false)}>Call to Book</a>
       </nav>
     </header>
   )
@@ -563,8 +563,8 @@ function Visit() {
           <text x="60" y="72" textAnchor="middle" fontFamily="Cormorant Garamond, serif" fontSize="44" fontStyle="italic" fill="currentColor">BH</text>
         </svg>
         <div className="membership-body">
-          <p className="eyebrow light"><PineSprig /> Plan Your Visit</p>
-          <h2>Bring a foursome — <em>or a friend.</em></h2>
+          <p className="eyebrow light"><PineSprig /> Manchester's Course</p>
+          <h2>Nine holes, <em>yours to play.</em></h2>
           <p className="lede">
             Big Hickory is open to the public, seven days a week, 8 AM to 8 PM weather
             permitting. Walk-ons are welcome. Tournaments and outings book ahead.

@@ -42,6 +42,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }
+html { scroll-padding-top: 88px; }
 
 body {
   background:
@@ -162,8 +163,10 @@ p { margin: 0 0 1em; }
 
 /* ---------- Nav ---------- */
 .nav {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 50;
   display: flex;
   align-items: center;
@@ -208,7 +211,7 @@ p { margin: 0 0 1em; }
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.6rem;
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.04em;
